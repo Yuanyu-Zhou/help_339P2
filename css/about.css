@@ -1,0 +1,57 @@
+.header_title{
+  display: flex;
+  background-image: url("../imgs/header_title_placeholder.png");
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;;
+}
+.header_title h2{
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  color: white;
+  z-index: 0;
+}
+
+/*
+  --------------------FOR TEAM MEMBERS PAGE-----------------------*/
+.team_details{
+  display: flex;
+  flex-direction: column;
+}
+.instructor_details{
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.content_descriptions{
+  margin-left: 3rem;
+}
+ /* --------------------FOR TEAM MEMBERS PAGE-----------------------*/
+
+ /* --------------------FOR MISSION AND VALUES PAGE-----------------------*/
+
+.about_page_intro{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.about_page_intro h3, h2{
+  text-align: left;
+}
+
+
+
+ /* --------------------FOR FAQ PAGE-----------------------*/
+ .faq h2{
+padding-bottom: 20px;
+padding-top: 20px;
+ }
+
+ .whitespace p{
+padding-bottom: 100px;
+
+ }

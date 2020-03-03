@@ -1,0 +1,203 @@
+/* --------------------- INTERACTIVE ELEMENTS ------------------- */
+
+#nav_main_example ul li{
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  -webkit-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+}
+#nav_main_example ul li a{
+  border-radius: 0.2rem;
+  padding: 1rem;
+  background-color: #ACD3EC;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+#nav_main_example ul li a:hover{
+  /* orange  */
+  background-color: #86B8D9;
+}
+#nav_main_example ul li a:focus{
+  /* orange  */
+  background-color: #3B6CA0;
+}
+
+/* ------------------------------ text field -------------------------------*/
+
+#name_f{
+  background-color: #E5E5E5;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+/*
+  -------------------------- TEXT ELEMENTS -------------------
+*/
+#headings h1, h2, h3, h4{
+  color: black;
+}
+#headings h1{
+  font-size: 2rem;
+}
+#headings h2{
+  text-align: left;
+  font-size: 1.5rem;
+  border: none;
+}
+#headings h3{
+  font-size: 1rem;
+  border: none;
+}
+#headings h4{
+  font-size: 0.8rem;
+}
+/*---------------------- COMBINED ELEMENTS -------------------*/
+
+/* ---------------------- Nav Sample ----------------------*/
+
+.nav_sample ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #ACD3EC;
+}
+.nav_sample ul li{
+  border-radius: 0.2rem;
+}
+.nav_sample ul li a{
+  padding: 0 0.8rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav_sample ul li:hover{
+  /* light blue */
+  background-color: #86B8D9;
+}
+
+/* ------------------- Products Display ---------------------- */
+.product_details{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.product_img img{
+  width: 10rem;;
+  height: auto;
+}
+.product_brief{
+  margin: 0 2rem;
+}
+.product_brief h4{
+  margin-bottom: 0.5rem;
+}
+
+#color_plate{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30rem;
+}
+
+/*  ------------------- Color Palette ------------------- */
+
+#color_blocks{
+  padding: 2rem 2rem;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.color_block p{
+  color: black;
+  height: 3rem;
+  padding: 1rem 0.4rem;
+  margin: 0.5rem 0;
+}
+
+#cb_1{
+  background-color: #072F58;
+}
+#cb_2{
+  background-color: #2F4E7C;
+}
+#cb_3{
+  background-color: #3B6CA0;
+}
+#cb_4{
+  background-color: #86B8D9;
+}
+#cb_5{
+  background-color: #ACD3EC;
+}
+
+#cb_6{
+  background-color: #FFF5E0;
+}
+#cb_7{
+  background-color: #FFE5AD;
+}
+#cb_8{
+  background-color: #A4B1BF;
+}
+#cb_9{
+  background-color: #F2F2F2;
+}
+#cb_10{
+  background-color: #FFFFFF;
+}
+
+/*  ------------------- Grid Structure ------------------- */
+#frame{
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid black;
+}
+
+#nav p{
+  text-align: right;
+  padding: 0.5rem 3rem;
+  color: white;
+  background-color: #ACD3EC;
+}
+
+.slogan{
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 1.5rem;
+}
+#content p{
+  padding: 10rem 0;
+  text-align: center;
+  background-color: #F3F7FA;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem 5rem;
+  background-color: #3B6CA0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+/* ------------------ Site Map ------------------------- */
+#site_map img{
+  display: block;
+  width: 95%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1rem #3B6CA0 solid;
+}

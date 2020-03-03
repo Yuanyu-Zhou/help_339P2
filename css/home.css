@@ -1,0 +1,229 @@
+
+
+/* SLIDE SHOW SECTION */
+.slidershow{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  clear: both;
+  overflow: scroll;
+}
+
+.slide img{
+  background-size: cover;
+  background-position: center;
+}
+
+.middle{
+  position: absolute;
+  top: 13.5rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  /* navigation for slider */
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 1;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #FFFFFF;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+/*-------------end of slideshow styling----------------*/
+
+/* -----------CONTENT---------------*/
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+/*
+.home_details{
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_content_details{
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.content_descriptions{
+  margin-left: 2.5rem;
+
+}
+
+*/
+
+
+/*-------------SLIDE SHOW FOR REVIEWS----------------*/
+.slider_show{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+  z-index: 0;
+
+}
+
+.slide_r img{
+  background-size: cover;
+  background-position: center;
+ /* display: flex; */
+}
+
+.reviews{
+  position: absolute;
+  top: 120rem;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.navigation_reviews{
+    /* navigation for slider (small boxes) */
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 2;
+}
+.bar_reviews{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #FFFFFF;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+  position: relative;
+}
+
+.bar_reviews:hover{
+  background: #FFFFFF;
+}
+
+input[name="p"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides_reviews{
+
+  width: 500%;
+  height: auto;
+  display: flex;
+}
+
+.slide_r{
+
+  width: 20%;
+  transition: 0.6s;
+}
+.slide_r img{
+  width: 100%;
+  height: auto%;
+}
+
+#p1:checked ~ .s2{
+  margin-left: 0;
+}
+#p2:checked ~ .s2{
+  margin-left: -20%;
+}
+#p3:checked ~ .s2{
+  margin-left: -40%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .column-66, .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+/*-------------end of slideshow styling----------------*/

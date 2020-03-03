@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Intermediate Courses</title>
+    <link href="../css/register.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+
+
+  <!-- font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="header">
+  <h1><a href="home.html">Beyond Fluency</a></h1>
+
+
+
+  <!--  Nav -------------------------------->
+  <nav class="nav_main">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <!-- dropdown title: Course-->
+      <li><a href="#">Courses<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
+        <!-- dropdown content-->
+        <ul class="nav_dropdown">
+          <li><a href="course_intermediate.html">Intermediate</a></li>
+          <li><a href="course_advanced.html">Advanced</a></li>
+        </ul>
+      </li>
+
+      <!-- dropdown title: About-->
+      <li><a href="#">About<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
+        <!-- dropdown content-->
+        <ul class="nav_dropdown">
+          <li><a href="about.html">Our Goals</a></li>
+          <li><a href="team.html">Members</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a class="join" href="user.html">Join Us</a></li>
+    </ul>
+  </nav>
+</div>
+<!--Header Title -------------------------------->
+<div class="header_title">
+  <h2>Beyond Fluency</h2>
+</div>
+
+
+<!-- register background-->
+<div class="bg_purchase_register">
+<section class="content">
+
+  <!-- Register Page -->
+  <div class="register_purchase">
+<!-- Register Form: left -> Information -->
+      <h2>Great! You're almost done</h2>
+      <p>Just enter the information below and you're good to go</p>
+
+<!-- Register Form: right -> form to fill out -->
+    <div class="register_right">
+      <form action="user.html" method="post">
+
+        <div id="register_info">
+          <input type="text" name="name_f" placeholder="First Name">
+          <input type="text" name="name_l" placeholder="Last Name">
+          <input type="text" name="name_l" placeholder="Email Address">
+
+        </div>
+
+        <input type="email" name="email" placeholder="Credit Card Number">
+        <input type="email" name="email" placeholder="Address">
+
+        <input type="password" name="password" placeholder="CVV">
+        <input type="password" name="password_confirm" placeholder="Expiration Date">
+
+      
+        <button class="form_button" onclick="window.location.href = 'order_complete.html';" type="button" name="button">Confirm Order</button>
+      </form>
+
+    </div>
+
+  </div>
+</section> <!-- content end -->
+</div> <!-- bg end-->
+
+
+
+<!-- content end -->
+<footer>
+<div class="footer">
+  <div class="footer_l">
+    <h3>Contact Us</h3>
+    <p><strong>Email:</strong> beyondfluency@gmail.com</p>
+    <p><strong>Cell:</strong> +1 778-877-8033</p>
+    <p><strong>Address:</strong> Suite 602, 689 Abbott St.,Vancouver, BC, Canada</p>
+  </div>
+
+  <div class="footer_r">
+    <h3>Sign up now -> A Free Lesson</h3>
+    <form class="" action="#" method="post">
+      <input type="text" name="f_name" placeholder="First Name">
+      <input type="text" name="l_name" placeholder="Last Name">
+      <input type="password" name="password" placeholder="Password">
+      <input type="password" name="password_confirm" placeholder="Please confirem your password">
+      <button class="form_button" onclick="window.location.href = 'profile.html';" type="button" name="button">Join Now</button>
+    </form>
+  </div>
+
+</div>
+  <p class="copyright">&copy; Beyond Fluency 2020</p>
+</footer>
+</body>
+</html>

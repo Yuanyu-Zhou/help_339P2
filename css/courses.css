@@ -1,0 +1,141 @@
+p{
+  margin: 1rem 0;
+}
+.course_descriptions a{
+  text-decoration: none;
+}
+
+.course_descriptions a h3:hover{
+  color: #EFAC00;
+}
+.course_descriptions a img{
+  height: 2.5rem;
+  margin-right: 1rem;
+  width: auto;
+  float: right;
+}
+.course_descriptions a img:hover{
+  border-right: 0.1rem #EFAC00 solid;
+  padding-right: 0.5rem;
+}
+
+.courses_main{
+  display: flex;
+  flex-direction: column;
+}
+
+.header_title{
+  display: flex;
+  background-image: url("../imgs/header_title_placeholder.png");
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+  z-index: 0;
+}
+.header_title h2{
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  color: white;
+  z-index: auto;
+}
+
+.package_details{
+  display: flex;
+  flex-direction: column;
+}
+.package_course_details{
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.package_course_details:hover{
+  background-color: #F2F6FA;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  box-shadow: 0 0.1rem 0.5rem 0.1rem #A4B1BF;
+  border-radius: 1rem;
+}
+.course_descriptions{
+  margin: 0 0 0 2rem;
+}
+
+.img_course{
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.5rem 0.1rem #A4B1BF;
+}
+
+/* --------------------- Responsive view --------------------- */
+/* --------------------- w:1920 desktop--------------------- */
+@media only screen and (max-width: 1920px) {
+  .package_course_details img{
+    height: auto;
+    width: 15rem;
+  }
+
+  .instructor_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+}
+
+/* --------------------- w:1200 desktop --------------------- */
+@media only screen and (max-width: 1200px) {
+  .package_course_details{
+    padding: 1rem 2rem;
+    /* border-top: 0.1rem solid #ACD3EC; */
+    flex-direction: column;
+  }
+  .package_course_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+
+}
+
+
+/* --------------------- w:800 desktop --------------------- */
+@media only screen and (max-width: 800px) {
+
+  .package_course_details{
+    padding: 1rem 2rem;
+    flex-direction: column;
+  }
+  .package_course_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+
+}
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+  .package_course_details{
+    padding: 1rem 2rem;
+    flex-direction: column;
+  }
+  .package_course_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+
+  .package_course_details{
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    flex-direction: column;
+  }
+  .package_course_details img{
+    margin: 2rem auto;
+    height: auto;
+  }
+
+}

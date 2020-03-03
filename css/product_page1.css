@@ -1,0 +1,97 @@
+.header_title{
+  display: flex;
+  background-image: url("../imgs/header_title_placeholder.png");
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;;
+}
+.header_title h2{
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8rem;
+  color: white;
+  z-index: 0;
+}
+
+.all_schedule{
+  display: flex;
+  flex-direction: row;
+}
+
+.course_schedule{
+    margin: 2rem auto;
+
+  flex-direction: column;
+  display: flex;
+}
+
+.title_reviews{
+  display: flex;
+  flex: row;
+}
+
+.all_reviews{
+  display: flex;
+  flex-direction: row;
+}
+
+.review_date{
+  text-align: right;
+}
+.review_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.left_review{
+  display: flex;
+  flex-direction: column;
+}
+.review_avatar {
+  height: auto;
+  width: 5rem;
+}
+
+.review_stars {
+  height: auto;
+  width: 3rem;
+}
+
+
+.right_review{
+  display: flex;
+  flex-direction: column;
+}
+
+.title_reviews button{
+
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #252E7B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+
+}
+
+.title-reviews button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+
+
+
+
