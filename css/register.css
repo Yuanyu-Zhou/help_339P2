@@ -1,5 +1,5 @@
 .bg_register{
-  background-image: url("../imgs/bg_register.jpg");
+  background-image: url("../imgs/bg_register.png");
   /* Photo by Green Chameleon on Unsplash */
   background-position: center;
   background-size: cover;
@@ -7,8 +7,8 @@
 .register{
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-
 }
 
 .register_l{
