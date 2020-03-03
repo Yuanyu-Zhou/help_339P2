@@ -24,9 +24,19 @@ p{
   flex-direction: column;
 }
 
-.header_title{
+#advanced_header_title{
   display: flex;
-  background-image: url("../imgs/header_title_placeholder.png");
+  background-image: url("../imgs/courses/advanced/bg_advanced.jpg");
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+  z-index: 0;
+}
+
+#intermediate_header_title{
+  display: flex;
+  background-image: url("../imgs/courses/intermediate/bg_intermediate.jpg");
   height: 20rem;
   background-position: center;
   background-size: cover;
