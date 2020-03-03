@@ -174,14 +174,36 @@ section code {
 .header_banner{
 }
 
-/* .header_banner .header_bg{
+/* page intermediate */
+.header_banner #intermediate_bg{
+  /* Photo by Siora Photography on Unsplash */
+  background-image: url("../imgs/courses/intermediate/bg_intermediate.jpg");
+  height: 20rem;
+  opacity: 50%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* page advanced */
+.header_banner #advanced_bg{
+  /* Photo by Siora Photography on Unsplash */
+  background-image: url("../imgs/courses/advanced/bg_advanced.jpg");
+  height: 20rem;
+  opacity: 50%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* page about */
+.header_banner #about_bg{
   background-image: url("../imgs/about.jpg");
   height: 20rem;
   opacity: 50%;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
-} */
+}
+/* page member */
 .header_banner #about_bg{
   background-image: url("../imgs/about.jpg");
   height: 20rem;
