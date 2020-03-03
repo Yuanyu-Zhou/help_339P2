@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-style: normal;
   color: #072F58;
@@ -179,7 +178,7 @@ section code {
   /* Photo by Siora Photography on Unsplash */
   background-image: url("../imgs/courses/intermediate/bg_intermediate.jpg");
   height: 20rem;
-  opacity: 50%;
+  opacity: 60%;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
@@ -189,7 +188,7 @@ section code {
   /* Photo by Siora Photography on Unsplash */
   background-image: url("../imgs/courses/advanced/bg_advanced.jpg");
   height: 20rem;
-  opacity: 50%;
+  opacity: 60%;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
@@ -198,16 +197,25 @@ section code {
 .header_banner #about_bg{
   background-image: url("../imgs/about.jpg");
   height: 20rem;
-  opacity: 50%;
+  opacity: 60%;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 /* page member */
-.header_banner #about_bg{
-  background-image: url("../imgs/about.jpg");
+.header_banner #members_bg{
+  background-image: url("../imgs/bg_members.jpg");
   height: 20rem;
-  opacity: 50%;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* page FAQ */
+.header_banner #FAQ_bg{
+  background-image: url("../imgs/bg_FAQ.jpg");
+  height: 20rem;
+  opacity: 60%;
   background-position: center;
   background-size: cover;
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
@@ -218,9 +226,9 @@ section code {
     font-size: 1.8rem;
     text-align: center;
     position: absolute;
-    color: black !important;
-    top: 30%;
-    z-index: 999;
+    color: #072F58;
+    top: 60%;
+    z-index: 1;
 }
 /* -------------------------- content ---------------------------*/
 .content{
