@@ -119,9 +119,10 @@ section code {
 }
 
 .dropdown_indicator{
-  max-width: 1rem;
-  height: auto;
-  padding: 0 0.2rem;
+  width: auto;
+    height: .5rem;
+    padding: 0px 0.2rem;
+    margin-top: 0.50rem;
 }
 
 .nav_main ul li{
@@ -140,6 +141,7 @@ section code {
   font-size: 1.3rem;
   text-decoration: none;
   color: white;
+  display: flex;
 }
 
 .nav_dropdown{
@@ -311,7 +313,7 @@ input::placeholder{
   }
 
    .column-33 img{
-     margin: 10rem auto;
+     margin: auto;
     height: auto;
   }
 

@@ -4,7 +4,6 @@
   height: auto;
   z-index: 0;
   clear: both;
-  overflow: scroll;
 }
 
 .slide img{
@@ -80,6 +79,9 @@ input[name="r"]{
 /*-------------end of slideshow styling----------------*/
 
 /* -----------CONTENT---------------*/
+.content-section-one {
+  padding-top: 23rem;
+}
 
 .container {
   padding: 64px;
@@ -152,10 +154,7 @@ img {
 }
 
 .reviews{
-  position: absolute;
-  top: 120rem;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(0%,-9%);
 }
 
 .navigation_reviews{
