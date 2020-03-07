@@ -14,6 +14,7 @@ p{
   width: auto;
   float: right;
 }
+
 .course_descriptions a img:hover{
   border-right: 0.1rem #EFAC00 solid;
   padding-right: 0.5rem;
@@ -58,7 +59,7 @@ p{
 }
 .package_course_details{
   margin: 1rem auto;
-  padding: 3rem 5rem;
+  padding: 5rem 5rem;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -84,13 +85,14 @@ p{
 
 .course_on_sale{
   position: relative;
+  margin: 1rem auto;
 }
 .banner_on_sale{
   position: absolute;
   padding: 0.5rem;
   left: 0;
-  top: 0;
-  background-color: orange;
+  top: 2rem;
+  background-color: #F5C208;
   color: white;
   border-radius: 1rem 1rem 1rem 0;
 }
@@ -118,17 +120,20 @@ p{
     max-height: 10rem;
     width: auto;
   }
+  .banner_on_sale{
+    top: 0%;
+  }
 }
 
 /* --------------------- w:1200 desktop --------------------- */
 @media only screen and (max-width: 1200px) {
   .package_course_details{
-    padding: 1rem 2rem;
+    padding: 3rem 4rem;
     /* border-top: 0.1rem solid #ACD3EC; */
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -143,7 +148,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -157,7 +162,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
 
@@ -183,7 +188,7 @@ p{
     flex-direction: column;
   }
   .package_course_details img{
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     height: auto;
   }
     .courses-page_intro{
