@@ -26,7 +26,7 @@
   <body>
 
 <div class="header">
-  <h1><a href="home.html">Beyond Fluency</a></h1>
+  <h1><a href="../index.html">Beyond Fluency</a></h1>
   <!--Nav -------------------------------->
     <nav class="nav_main">
       <ul>
@@ -34,8 +34,8 @@
         <li><a href="#">Courses<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
           <!-- dropdown content-->
           <ul class="nav_dropdown">
-            <li><a href="course_intermediate.html">Intermediate</a></li>
-            <li><a href="course_advanced.html">Advanced</a></li>
+            <li><a href="intermediate/course_intermediate.html">Intermediate</a></li>
+            <li><a href="advanced/course_advanced.html">Advanced</a></li>
           </ul>
         </li>
 
@@ -48,17 +48,12 @@
             <li><a href="faq.html">FAQ</a></li>
           </ul>
         </li>
-        <li><a href="user.html">Login</a></li>
+        <li id="link_join"><a href="user.html">Join Us</a></li>
       </ul>
     </nav>
 </div>
 
-<!----------------------- END OF NAV BAR--------------------------------------------->
-
-
-  <div class="header_title">
-  <h2>Welcome to your profile!</h2>
-</div>
+<!-- END OF NAV BAR--------------------------------------------->
 
 <section class="content">
 
@@ -75,55 +70,39 @@
     </div>
   </div>
 </div>
+<div class="whitespace">
+      <p></p>
+    </div>
 </section>
-<!--
 
 
-  <div class="header_title">
-  <h2>Welcome to your profile!</h2>
-</div>
-
-<section class="content">
-  <div class="courses-page_intro">
-    <h3>Welcome to Beyond Fluency</h3>
-
-    <p>Here you'll be able to manage your account, edit details about your profile and view your bookings</p>
-
-    <p> Click <a href="home.html">here</a> to find out more about our services</p>
-
+<!--Footer ------------------------------->
+<footer>
+<div class="footer">
+  <div class="footer_l">
+    <h3>Contact Us</h3>
+    <p><strong>Email:</strong> beyondfluency@gmail.com</p>
+    <p><strong>Cell:</strong> +1 778-877-8033</p>
+    <p><strong>Address:</strong> Suite 602, 689 Abbott St.,Vancouver, BC, Canada</p>
+   <a href="https://github.com/Yuanyu-Zhou/IAT339P02/tree/master/IAT339_p02_final">Github</a>
+   <a href="citation.html">Citation</a>
+   <a href="style_guide.html">Styleguide</a>
   </div>
 
+  <div class="footer_r">
+    <h3>Sign up now -> A Free Lesson</h3>
+    <form class="" action="#" method="post">
+      <input type="text" name="f_name" placeholder="First Name">
+      <input type="text" name="l_name" placeholder="Last Name">
+      <input type="password" name="password" placeholder="Password">
+      <input type="password" name="password_confirm" placeholder="Please confirm your password">
+      <button class="form_button" onclick="window.location.href = 'profile.html';" type="button" name="button">Join Now</button>
+    </form>
+  </div>
 
-
-
-</section> <!-- content end -->
-
-
-
-
-
-    <!-------------------------------Footer ------------------------------->
-
-    <footer>
-    <div class="footer">
-      <div class="footer_l">
-        <h3>Contact Us</h3>
-        <p>Email: beyondfluency@gmail.com</p>
-        <p>Cell: +1 778-877-8033</p>
-        <p>Address: Suite 602, 689 Abbott St.,Vancouver, BC, Canada</p>
-      </div>
-
-      <div class="footer_r">
-        <h3>Sign up now -> A Free Lesson</h3>
-        <form class="" action="#" method="post">
-          <p>First Name <input type="text" name="f_name" placeholder="Enter Your First Name.."></p>
-          <p>Last Name <input type="text" name="l_name" placeholder="Enter Your Last Name.."></p>
-          <input class="button_submit" type="submit" value="Submit">
-        </form>
-
-      </div>
-    </div>
-
-    </footer>
-    </body>
+</div>
+  <p class="copyright">&copy; Beyond Fluency 2020</p>
+</footer>
+</body>
 </html>
+

@@ -1,4 +1,5 @@
 /* -------------------------- main css file --------------------------  */
+
 *{
   padding: 0;
   margin: 0;
@@ -95,6 +96,7 @@ section code {
 
   border-bottom-left-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem;
+    box-shadow: 0 0.1rem 0.5rem 0.1rem #888888;
   z-index: 2;
 }
 
@@ -163,20 +165,19 @@ section code {
   padding: 0.1rem 0.1rem;
 }
 
-.join{
-  background-color: #EFAC00;
-  padding: 0 1rem;
+#link_join{
+  background-color: #2F4E7C;
   border-radius: 1rem;
 }
-.join:hover{
-  background-color: #8BA8C5;
+#link_join:hover{
+  background-color: #FFF5E0;
 }
-
-.header_banner{
+#link_join:hover a{
+  color: #2F4E7C;
 }
 
 /* page intermediate */
-.header_banner #intermediate_bg{
+#intermediate_bg{
   /* Photo by Siora Photography on Unsplash */
   background-image: url("../imgs/courses/intermediate/bg_intermediate.jpg");
   height: 20rem;
@@ -186,7 +187,7 @@ section code {
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 /* page advanced */
-.header_banner #advanced_bg{
+#advanced_bg{
   /* Photo by Siora Photography on Unsplash */
   background-image: url("../imgs/courses/advanced/bg_advanced.jpg");
   height: 20rem;
@@ -196,7 +197,7 @@ section code {
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 /* page about */
-.header_banner #about_bg{
+#about_bg{
   background-image: url("../imgs/about.jpg");
   height: 20rem;
   opacity: 60%;
@@ -205,7 +206,7 @@ section code {
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 /* page member */
-.header_banner #members_bg{
+#members_bg{
   background-image: url("../imgs/bg_members.jpg");
   height: 20rem;
   opacity: 60%;
@@ -214,7 +215,7 @@ section code {
   box-shadow: 0 0.1rem 1rem 0.1rem #888888;
 }
 /* page FAQ */
-.header_banner #FAQ_bg{
+#FAQ_bg{
   background-image: url("../imgs/bg_FAQ.jpg");
   height: 20rem;
   opacity: 60%;
@@ -251,12 +252,12 @@ footer{
   display: flex;
 }
 .footer p{
-  margin: 1rem 0;
+  margin: 0.2rem 0;
 }
 
 .footer_l{
   margin: 1rem 2rem;
-  flex: 1;
+  flex: 1.5;
 }
 .footer_r{
   margin: 1rem 2rem;
@@ -269,10 +270,10 @@ input.button_submit{
 input{
   margin: 0.2rem 0.2rem;
   padding: 0.2rem 0.5rem;
-  background-color: #D7D7D7;
+  background-color: white;
   width: 100%;
   border: none;
-  box-shadow: 0.1rem 0.2rem 0.5rem 0.1rem #A4B1BF inset;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #A4B1BF inset;
 }
 input::placeholder{
   color: #2F4E7C;
@@ -306,14 +307,8 @@ input::placeholder{
     max-width: 1000px;
     margin: 3rem auto;
   }
-
-  .instructor_details img{
-    max-height: 10rem;
-    width: auto;
-  }
-
    .column-33 img{
-     margin: auto;
+    margin: auto;
     height: auto;
   }
 
@@ -321,6 +316,10 @@ input::placeholder{
     font-size: 2em;
     text-align: left;
 
+  }
+
+  .column-66 p{
+    text-align: left;
   }
 
 }
@@ -334,25 +333,17 @@ input::placeholder{
     margin: 3rem auto;
   }
 
-  .instructor_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-  .instructor_details{
-    padding: 1rem 2rem;
-    flex-direction: column;
+  .container img{
+    height: 10rem;
+    width: auto;
   }
 
-   .column-33 img{
-     margin: 5rem auto;
-    height: auto;
-  }
-
-   .column-66 h3{
+    .column-66 h3{
     font-size: 2em;
-    text-align: center;
+    text-align: left;
 
   }
+
 }
 
 
@@ -363,28 +354,20 @@ input::placeholder{
   }
   .content{
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 2rem auto;
   }
-   .instructor_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-  .instructor_details{
-    padding: 1rem 2rem;
-    flex-direction: column;
 
+  .container img{
+    height: 5rem;
+    width: auto;
   }
-
-  .column-33 img{
-     margin: 3rem auto;
-    height: auto;
+  .container p{
+    text-align: left;
   }
 
    .column-66 h3{
-    font-size: 1.5em;
     text-align: center;
-
   }
 }
 
@@ -423,31 +406,24 @@ input::placeholder{
     margin: 2rem auto;
   }
 
-  .instructor_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-  .instructor_details{
-    padding: 1rem 2rem;
-    flex-direction: column;
-
-  }
   .about_page_intro h3, h2{
   text-align: left;
 }
 
- .column-33 img {
-    margin: 2rem auto;
-    height: auto;
+  .container img{
+    height: 6rem;
+    width: auto;
   }
-
-   .column-66 h3{
-    font-size: 1.5em;
+  .container p{
     text-align: center;
-
   }
-
-
+  .container h3{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .footer{
+    flex-direction: column;
+  }
 }
 /* --------------------- w:300 phone --------------------- */
 @media only screen and (max-width: 300px) {
@@ -459,28 +435,23 @@ input::placeholder{
     max-width: 200px;
     margin: 1rem auto;
   }
-   .instructor_details img{
-    margin: 2rem auto;
-    height: auto;
-  }
-  .instructor_details{
-    margin-top: 5rem;
-    padding: 1rem 2rem;
-    flex-direction: column;
-
-  }
   .about_page_intro h3, h2{
   text-align: left;
   }
- .column-33 img{
-    margin: 1.5rem auto;
-    width: 2rem;
-    height: auto;
+  .container img{
+    height: 5rem;
+    width: auto;
   }
-
-    .column-66 h3{
-    font-size: 1em;
+  .container p{
+    text-align: center;
+  }
+  .container h3{
+    font-size: 0.8rem;
     text-align: center;
 
+  }
+
+  .footer{
+    flex-direction: column;
   }
 }

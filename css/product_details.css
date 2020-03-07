@@ -1,0 +1,229 @@
+/* Product Details page */
+/* intermediate course */
+/* 1 */
+#bg_details_grocery{
+  background-image: url("../imgs/courses/intermediate/intermediate_1.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+
+/* 2 */
+#bg_details_neighbourhood{
+  background-image: url("../imgs/courses/intermediate/intermediate_2.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+
+/* 3 */
+#bg_details_cloth{
+  background-image: url("../imgs/courses/intermediate/intermediate_3.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+
+/* 4*/
+#bg_details_navigating{
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+
+/* advanced courses */
+/* 1 */
+#bg_details_money{
+  background-image: url("../imgs/courses/advanced/advanced_1.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* 2 */
+#bg_details_cafe{
+  background-image: url("../imgs/courses/advanced/advanced_2.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* 3 */
+#bg_details_gossip{
+  background-image: url("../imgs/courses/advanced/advanced_3.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* 4 */
+#bg_details_health{
+  background-image: url("../imgs/courses/advanced/advanced_4.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+/* 5 */
+#bg_details_music{
+  background-image: url("../imgs/courses/advanced/advanced_5.jpg");
+  height: 20rem;
+  opacity: 60%;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0.1rem 1rem 0.1rem #888888;
+}
+
+.all_schedule{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.course_schedule{
+  margin: 1rem 1rem;
+  background-color: #EDF2F8;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.title_reviews{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.all_reviews{
+  display: flex;
+  flex-direction: row;
+  background-color: #EDF2F8;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.review_date{
+  text-align: right;
+  color: #A4B1BF;
+}
+.review_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.left_review{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.review_avatar {
+  height: auto;
+  width: 5rem;
+}
+
+.review_stars {
+  height: auto;
+  width: 5rem;
+}
+
+
+.right_review{
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+}
+
+.right_review p{
+  margin: 1rem 5rem;
+}
+
+.title_reviews button{
+  margin: auto 0;
+  display: inline-block;
+  border-radius: 2rem;
+  background-color: #2F4E7C;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.title-reviews button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* --------------------- w:1920 desktop--------------------- */
+@media only screen and (max-width: 1920px) {
+  .package_course_details img{
+    height: auto;
+    width: 15rem;
+  }
+
+  .instructor_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+
+}
+
+
+
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+
+
+ .content_blurb {
+  margin: 1.5rem 1.5rem;
+ }
+
+ .all_schedule{
+  flex-direction: column;
+ }
+
+ .all_reviews{
+    margin: 1rem 1rem;
+
+ }
+
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+
+
+ .content_blurb {
+  margin: 1.5rem 1.5rem;
+ }
+
+ .all_schedule{
+  flex-direction: column;
+ }
+
+ .all_reviews{
+    margin: 1rem 1rem;
+
+ }
+
+}

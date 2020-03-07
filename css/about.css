@@ -10,6 +10,10 @@
   display: flex;
   flex-direction: row;
 }
+.instructor_details img{
+  height: 10rem;
+  width: auto;
+}
 .content_descriptions{
   margin-left: 3rem;
 }
@@ -29,13 +33,124 @@
 
 
 
+
+ }
+
+
  /* --------------------FOR FAQ PAGE-----------------------*/
  .faq h2{
-padding-bottom: 20px;
-padding-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
  }
 
  .whitespace p{
-padding-bottom: 100px;
+  padding-bottom: 100px;
+}
 
+/* --------------------- w:1920 desktop--------------------- */
+@media only screen and (max-width: 1920px) {
+  .package_course_details img{
+    height: auto;
+    width: 15rem;
+  }
+
+  .instructor_details img{
+    max-height: 10rem;
+    width: auto;
+  }
+}
+
+/* --------------------- w:1200 desktop --------------------- */
+@media only screen and (max-width: 1200px) {
+
+.instructor_details{
+      padding: 1rem 2rem;
+    /* border-top: 0.1rem solid #ACD3EC; */
+    flex-direction: column;
+}
+.instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+}
+
+.instructor_details h2{
+    margin: 2rem auto;
+    height: auto;
+    text-align: center;
+}
+
+}
+
+
+ /* --------------------- w:800 desktop --------------------- */
+@media only screen and (max-width: 800px) {
+
+
+.instructor_details{
+  margin: 2rem auto;
+  height: auto;
+}
+.instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+}
+
+}
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+    .team_details{
+    padding: 1rem 2rem;
+    flex-direction: column;
+}
+    .instructor_details{
+     margin: 2rem auto;
+     height: auto;
+}
+.instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+}
+
+ .about_page_intro {
+margin: 1.5rem 1.5rem;
  }
+
+ .faq{
+  margin: 1.5rem 1.5rem;
+ }
+
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
+
+ 
+    .team_details{
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+    flex-direction: column;
+}
+    .instructor_details{
+   margin: 2rem auto;
+    height: auto;
+}
+.instructor_details img{
+    margin: 2rem auto;
+    height: auto;
+}
+
+ .about_page_intro {
+margin: 1.5rem 1.5rem;
+ }
+
+ .faq{
+  margin: 1.5rem 1.5rem;
+ }
+
+
+
+
+}
+

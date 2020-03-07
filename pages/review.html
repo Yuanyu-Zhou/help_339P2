@@ -21,7 +21,7 @@
 <body>
 
 <div class="header">
-  <h1><a href="home.html">Beyond Fluency</a></h1>
+  <h1><a href="../index.html">Beyond Fluency</a></h1>
   <!--  Nav -------------------------------->
   <nav class="nav_main">
     <ul>
@@ -29,8 +29,8 @@
       <li><a href="#">Courses<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
         <!-- dropdown content-->
         <ul class="nav_dropdown">
-          <li><a href="course_intermediate.html">Intermediate</a></li>
-          <li><a href="course_advanced.html">Advanced</a></li>
+          <li><a href="intermediate/course_intermediate.html">Intermediate</a></li>
+          <li><a href="advanced/course_advanced.html">Advanced</a></li>
         </ul>
       </li>
 
@@ -43,29 +43,29 @@
           <li><a href="faq.html">FAQ</a></li>
         </ul>
       </li>
-      <li><a class="join" href="user.html">Join Us</a></li>
+      <li id="link_join"><a href="user.html">Join Us</a></li>
     </ul>
   </nav>
 </div>
-<!--Header Title -------------------------------->
+<!--
 <div class="header_title">
   <h2>Beyond Fluency</h2>
 </div>
-
+-->
 
 <section class="content">
 
 <div class="container">
   <div class="row">
     <div class="column-66">
-      <h3 class="large-font" ><b>Please leave a review below</b></h3>
+      <h3 class="large-font" >Leave a review</h3>
 
 <!--https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_textarea_form-->
 
 <form action="#" id="usrform">
-<textarea rows="4" cols="50" name="comment" form="usrform">
-Enter text here...</textarea>
-<button class="form_button" onclick="window.location.href = 'demo_product.html';" type="button" name="button">Submit Review</button>
+<textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Enter text here...">
+</textarea>
+<button class="form_button" onclick="window.location.href = 'post_review.html';" type="button" name="button">Submit Review</button>
 
 </form>
 
@@ -103,6 +103,9 @@ end --->
     <p><strong>Email:</strong> beyondfluency@gmail.com</p>
     <p><strong>Cell:</strong> +1 778-877-8033</p>
     <p><strong>Address:</strong> Suite 602, 689 Abbott St.,Vancouver, BC, Canada</p>
+   <a href="https://github.com/Yuanyu-Zhou/IAT339P02/tree/master/IAT339_p02_final">Github</a>
+   <a href="citation.html">Citation</a>
+   <a href="style_guide.html">Styleguide</a>
   </div>
 
   <div class="footer_r">
@@ -111,7 +114,7 @@ end --->
       <input type="text" name="f_name" placeholder="First Name">
       <input type="text" name="l_name" placeholder="Last Name">
       <input type="password" name="password" placeholder="Password">
-      <input type="password" name="password_confirm" placeholder="Please confirem your password">
+      <input type="password" name="password_confirm" placeholder="Please confirm your password">
       <button class="form_button" onclick="window.location.href = 'profile.html';" type="button" name="button">Join Now</button>
     </form>
   </div>

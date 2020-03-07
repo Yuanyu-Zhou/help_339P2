@@ -72,9 +72,10 @@ input[name="r"]{
 #r4:checked ~ .s1{
   margin-left: -60%;
 }
+/*
 #r5:checked ~ .s1{
   margin-left: -80%;
-}
+}*/
 
 /*-------------end of slideshow styling----------------*/
 
@@ -84,7 +85,7 @@ input[name="r"]{
 }
 
 .container {
-  padding: 64px;
+  padding: 1rem 5rem;
 }
 
 .row:after {
@@ -116,25 +117,6 @@ img {
   height: auto;
   max-width: 100%;
 }
-
-
-/*
-.home_details{
-  margin-top: 20rem;
-  display: flex;
-  flex-direction: column;
-}
-.home_content_details{
-  padding: 3rem 5rem;
-  display: flex;
-  flex-direction: row;
-}
-.content_descriptions{
-  margin-left: 2.5rem;
-
-}
-
-*/
 
 
 /*-------------SLIDE SHOW FOR REVIEWS----------------*/
@@ -224,3 +206,37 @@ input[name="p"]{
 }
 
 /*-------------end of slideshow styling----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

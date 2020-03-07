@@ -1,9 +1,7 @@
 
 
-
-
 .bg_purchase_register{
-  background-image: url("../imgs/bg_register_pattern.png");
+  /*background-image: url("../imgs/bg_register_pattern.png"); */
   background-position: center;
   background-size: cover;
 }
@@ -29,5 +27,17 @@
   flex-direction: row;
 }
 
+
+/* --------------------- w:600 tablet--------------------- */
+@media only screen and (max-width: 600px) {
+
+.bg_purchase_register{
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+
+}
+/* --------------------- w:300 phone --------------------- */
+@media only screen and (max-width: 300px) {
 
 

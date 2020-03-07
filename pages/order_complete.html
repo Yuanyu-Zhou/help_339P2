@@ -21,7 +21,7 @@
 <body>
 
 <div class="header">
-  <h1><a href="home.html">Beyond Fluency</a></h1>
+  <h1><a href="../index.html">Beyond Fluency</a></h1>
   <!--  Nav -------------------------------->
   <nav class="nav_main">
     <ul>
@@ -29,8 +29,8 @@
       <li><a href="#">Courses<img class="dropdown_indicator" src="../imgs/dropdown_indicator.png" alt="dropdown_indicator"></a>
         <!-- dropdown content-->
         <ul class="nav_dropdown">
-          <li><a href="course_intermediate.html">Intermediate</a></li>
-          <li><a href="course_advanced.html">Advanced</a></li>
+          <li><a href="intermediate/course_intermediate.html">Intermediate</a></li>
+          <li><a href="advanced/course_advanced.html">Advanced</a></li>
         </ul>
       </li>
 
@@ -43,54 +43,29 @@
           <li><a href="faq.html">FAQ</a></li>
         </ul>
       </li>
-      <li><a class="join" href="user.html">Join Us</a></li>
+      <li id="link_join"><a href="user.html">Join Us</a></li>
     </ul>
   </nav>
 </div>
-<!--Header Title -------------------------------->
-<div class="header_title">
-  <h2>Beyond Fluency</h2>
-</div>
-
 
 <section class="content">
 
 <div class="container">
   <div class="row">
+    <div class="column-33">
+      <img src="../imgs/shop.png" alt="App" width="335" height="471">
+    </div>
     <div class="column-66">
       <h3 class="large-font" ><b>Congratulations! Your order is complete</b></h3>
        <p>Make sure to check your email for a confirmation reciept</p>
 
-    <p><a class="link_in_text" href="course_intermediate.html">Browse through more courses here &gt;&gt;</a></p>
+    <p><a class="link_in_text" href="intermediate/course_intermediate.html">Browse through more courses here &gt;&gt;</a></p>
     </div>
-    <div class="column-33">
-      <img src="../imgs/profile.png" alt="App" width="335" height="471">
-    </div>
+
   </div>
 </div>
 </section>
 
-<!--
-
-<div class="bg_purchase_register">
-<section class="content">
-
-    Register Page
-  <div class="register_purchase">
-
-      <h2>Congratulations! You've successfully booked a spot and we can't wait to see you</h2>
-
-      <h2>Check your email for a confirmation reciept</h2>
-
-      <p>Click <a href="course_intermediate.html">here</a> to view some of our other courses</p>
-
-  </div>
-</section>
-</div>
-
-<!-- end --->
-
-<!-- content end -->
 <footer>
 <div class="footer">
   <div class="footer_l">
@@ -98,6 +73,9 @@
     <p><strong>Email:</strong> beyondfluency@gmail.com</p>
     <p><strong>Cell:</strong> +1 778-877-8033</p>
     <p><strong>Address:</strong> Suite 602, 689 Abbott St.,Vancouver, BC, Canada</p>
+   <a href="https://github.com/Yuanyu-Zhou/IAT339P02/tree/master/IAT339_p02_final">Github</a>
+   <a href="citation.html">Citation</a>
+   <a href="style_guide.html">Styleguide</a>
   </div>
 
   <div class="footer_r">
@@ -106,7 +84,7 @@
       <input type="text" name="f_name" placeholder="First Name">
       <input type="text" name="l_name" placeholder="Last Name">
       <input type="password" name="password" placeholder="Password">
-      <input type="password" name="password_confirm" placeholder="Please confirem your password">
+      <input type="password" name="password_confirm" placeholder="Please confirm your password">
       <button class="form_button" onclick="window.location.href = 'profile.html';" type="button" name="button">Join Now</button>
     </form>
   </div>
